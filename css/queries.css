@@ -1,0 +1,35 @@
+[class^=col-] {
+    float: left;
+}
+
+.clear-fix::after, .row::after {
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.row {
+    width: 100%;
+}
+
+/*grid 2*/
+
+.col-1-2 {
+    width: 50%;
+}
+
+/*//grid 12*/
+.col-pc-2-12 {
+    width: 16.66666666%;
+}
+.col-pc-3-12 {
+    width: 25%;
+}
+
+.col-pc-4-12 {
+    width: 33.33333333%;
+}
+
+.col-pc-6-12 {
+    width: 50%;
+}
